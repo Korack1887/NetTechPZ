@@ -1,0 +1,67 @@
+<?xml-stylesheet type = "text/xsl" href="Orders.xsl"?>
+<ordersList>
+  <ordersHasResources>
+    <animator>
+      <costume>
+        <id>1</id>
+        <name>Spider-man</name>
+        <description>Spider-man fancy costume</description>
+      </costume>
+      <id>1</id>
+      <name>Hryhorii</name>
+      <price>308</price>
+    </animator>
+    <order>
+      <id>1</id>
+      <realisation>
+        <address>Nauki boulevard</address>
+        <contactMail>User123@mail.com</contactMail>
+        <contactName>Dmitri</contactName>
+        <contactPhone>0956423535</contactPhone>
+        <id>1</id>
+      </realisation>
+      <user>
+        <id>2</id>
+        <login>dmitriuser</login>
+        <name>Dmitri</name>
+        <password>dmitri123123</password>
+        <role>
+          <name>USER</name>
+        </role>
+      </user>
+    </order>
+    <price>616</price>
+  </ordersHasResources>
+  <ordersHasResources>
+    <animator>
+      <costume>
+        <id>2</id>
+        <name>Shrek</name>
+        <description>No description</description>
+      </costume>
+      <id>1</id>
+      <name>Ivan</name>
+      <price>245</price>
+    </animator>
+    <order>
+      <id>2</id>
+      <realisation>
+        <address>Centr street</address>
+        <contactMail>User334@mail.com</contactMail>
+        <contactName>Danyla</contactName>
+        <contactPhone>0956453535</contactPhone>
+        <id>2</id>
+      </realisation>
+      <user>
+        <id>2</id>
+        <login>danylauser</login>
+        <name>Danyla</name>
+        <password>danyaadmin</password>
+        <role>
+          <name>USER</name>
+        </role>
+      </user>
+    </order>
+    <price>490</price>
+  </ordersHasResources>
+</ordersList>
