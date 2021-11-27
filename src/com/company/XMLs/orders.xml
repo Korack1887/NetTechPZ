@@ -1,0 +1,72 @@
+<?xml-stylesheet type = "text/xsl" href="orders.xsl"?>
+<ntpz:orders xmlns:ntpz="http://net-tech/pz">
+  <ntpz:order>
+    <ntpz:id>1</ntpz:id>
+    <ntpz:status>DONE</ntpz:status>
+    <ntpz:details>
+      <ntpz:address>Istorichniy boulvard 12</ntpz:address>
+      <ntpz:user>
+        <ntpz:id>2</ntpz:id>
+        <ntpz:name>Vladyslav</ntpz:name>
+        <ntpz:password>vlad123123</ntpz:password>
+        <ntpz:email>vllaad@gmail.com</ntpz:email>
+        <ntpz:phone>+380965731432</ntpz:phone>
+        <ntpz:role>USER</ntpz:role>
+      </ntpz:user>
+      <ntpz:date>2021-11-26T16:44:07</ntpz:date>
+    </ntpz:details>
+    <ntpz:category>
+      <ntpz:id>2</ntpz:id>
+      <ntpz:name>Tamada</ntpz:name>
+      <ntpz:price>3400.00</ntpz:price>
+      <ntpz:animators>
+        <ntpz:id>3</ntpz:id>
+        <ntpz:name>Stephan</ntpz:name>
+      </ntpz:animators>
+      <ntpz:costumes>
+        <ntpz:id>3</ntpz:id>
+        <ntpz:name>Costume</ntpz:name>
+        <ntpz:description>Classic costume</ntpz:description>
+      </ntpz:costumes>
+    </ntpz:category>
+  </ntpz:order>
+  <ntpz:order>
+    <ntpz:id>2</ntpz:id>
+    <ntpz:status>IN_PROGRESS</ntpz:status>
+    <ntpz:details>
+      <ntpz:address>Nauki 15</ntpz:address>
+      <ntpz:user>
+        <ntpz:id>3</ntpz:id>
+        <ntpz:name>Dmitro</ntpz:name>
+        <ntpz:password>dimapass13</ntpz:password>
+        <ntpz:email>dmitrih@gmail.com</ntpz:email>
+        <ntpz:phone>+380995431412</ntpz:phone>
+        <ntpz:role>USER</ntpz:role>
+      </ntpz:user>
+      <ntpz:date>2013-11-23T16:44:07</ntpz:date>
+    </ntpz:details>
+    <ntpz:category>
+      <ntpz:id>1</ntpz:id>
+      <ntpz:name>Detski prazdnik Shrek + Spider man</ntpz:name>
+      <ntpz:price>1400.00</ntpz:price>
+      <ntpz:animators>
+        <ntpz:id>1</ntpz:id>
+        <ntpz:name>Mikhaylo</ntpz:name>
+      </ntpz:animators>
+      <ntpz:animators>
+        <ntpz:id>2</ntpz:id>
+        <ntpz:name>Ivan</ntpz:name>
+      </ntpz:animators>
+      <ntpz:costumes>
+        <ntpz:id>1</ntpz:id>
+        <ntpz:name>Spider man</ntpz:name>
+        <ntpz:description>Costume from movie Spider man</ntpz:description>
+      </ntpz:costumes>
+      <ntpz:costumes>
+        <ntpz:id>2</ntpz:id>
+        <ntpz:name>Shrek</ntpz:name>
+        <ntpz:description>Costume from cartoon Shrek</ntpz:description>
+      </ntpz:costumes>
+    </ntpz:category>
+  </ntpz:order>
+</ntpz:orders>
