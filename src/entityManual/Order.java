@@ -1,4 +1,4 @@
-package entity;
+package entityManual;
 
 
 public class Order {

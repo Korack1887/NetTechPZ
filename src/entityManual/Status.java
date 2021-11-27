@@ -1,4 +1,4 @@
-package entity;
+package entityManual;
 
 public enum Status {
     NEW, IN_PROGRESS, DONE, REJECTED

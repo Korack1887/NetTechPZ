@@ -1,4 +1,4 @@
-package entity;
+package entityManual;
 
 public class User {
     public int id;
