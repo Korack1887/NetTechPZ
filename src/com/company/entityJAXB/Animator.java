@@ -1,10 +1,7 @@
 
 package com.company.entityJAXB;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlType;
+import javax.xml.bind.annotation.*;
 
 
 /**
@@ -33,7 +30,6 @@ import javax.xml.bind.annotation.XmlType;
     "name"
 })
 public class Animator {
-
     @XmlElement(namespace = "http://net-tech/pz")
     protected int id;
     @XmlElement(namespace = "http://net-tech/pz", required = true)

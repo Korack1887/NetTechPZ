@@ -68,13 +68,13 @@ public class Orders {
      * 
      * 
      */
-    public List<Order> getOrder() {
+    public List<Order> getOrders() {
         if (order == null) {
             order = new ArrayList<Order>();
         }
         return this.order;
     }
     public void addOrder(Order order){
-        getOrder().add(order);
+        getOrders().add(order);
     }
 }
